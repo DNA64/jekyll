@@ -14,7 +14,7 @@ content doesn't have to be grouped by date.
 To set up a collection you need to tell Jekyll about it. Jekyll configuration
 happens in a file called `_config.yml` (by default).
 
-Create `_config.yml` in the root with the following:
+Create `_config.yml` in your sites root folder with the following:
 
 ```yaml
 collections:
@@ -57,7 +57,7 @@ Ted has been eating fruit since he was baby.
 Let's add a page which lists all the authors on the site. Jekyll makes the
 collection available at `site.authors`.
 
-Create `staff.html` and iterate over `site.authors` to output all the staff:
+Create `staff.html` in your sites root folder and iterate over `site.authors` to output all the staff:
 
 {% raw %}
 ```liquid
