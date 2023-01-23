@@ -6,7 +6,7 @@ position: 5
 The site is coming together; however, there's no way to navigate between
 pages. Let's fix that.
 
-Navigation should be on every page so adding it to your layout is the correct
+Navigation should be on every page, so adding it to your layout is the correct
 place to do this. Instead of adding it directly to the layout, let's use this
 as an opportunity to learn about includes.
 
@@ -21,8 +21,7 @@ include.
 
 ## Include usage
 
-Create a file for the navigation at `_includes/navigation.html` with the
-following content:
+Create the `_includes` folder in your site's root directory, then within the `_includes` folder create a file for the navigation at `_includes/navigation.html` with the following content:
 
 ```
 <nav>
