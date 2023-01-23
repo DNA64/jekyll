@@ -15,8 +15,8 @@ and then iterate over it in the navigation include.
 [YAML](http://yaml.org/) is a format that's common in the Ruby ecosystem. You'll
 use it to store an array of navigation items each with a name and link.
 
-Create a data file for the navigation at `_data/navigation.yml` with the
-following:
+Create the `_data` directory in your site's root folder, then create a data file for the navigation at `_data/navigation.yml` with the
+following content:
 
 ```yaml
 - name: Home
