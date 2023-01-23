@@ -8,10 +8,10 @@ Jekyll style, blogging is powered by text files only.
 
 ## Posts
 
-Blog posts live in a folder called `_posts`. The filename for posts have a
+Blog posts live in a folder called `_posts`. The filenames for posts have a
 special format: the publish date, then a title, followed by an extension.
 
-Create your first post at `_posts/2018-08-20-bananas.md` with the
+Create the `_posts` folder in your site's root directory and then create your first post at `_posts/2018-08-20-bananas.md` with the
 following content:
 
 ```markdown
