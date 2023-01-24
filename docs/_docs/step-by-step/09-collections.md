@@ -206,9 +206,7 @@ author's posts:
 
 {% raw %}
 ```liquid
----
-layout: default
----
+
 <h1>{{ page.name }}</h1>
 <h2>{{ page.position }}</h2>
 
@@ -231,9 +229,7 @@ You can do this using a similar filtering technique in `_layouts/post.html`:
 
 {% raw %}
 ```liquid
----
-layout: default
----
+
 <h1>{{ page.title }}</h1>
 
 <p>
